@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <form action="#" method="#">
+       <label for="first_name">First Name</label>
+       <input type="text" name="first_name" id="first_name"
+       placeholder="John">
+
+       <label for="last-name">Last Name</label>
+       <input type="text" name="last_name" id="last_name"
+       placeholder="Doe">
+
+       <br><br>
+
+       <label for="username">Username</label>
+       <input type="text" name="username" id="username"
+       placeholder="jdoe_123">
+
+       <label for="password">Password</label>
+       <input type="password" name="passeord" id="password">
+
+       <br><br>
+
+       <label for="birthdate">Birthday</label>
+       <input type="date" name="birthdate" id="birthdate">
+
+       <br><br>
+       <label for="email">Email</label>
+       <input type="email" name="email" id="email"
+       placeholder="mail@gmail.com">
+
+       <br><br>
+       <!--submit botton-->
+       <input type="submit" value="Sibmit" name="btn_submit" id="submit">
+   </form>
+
+   <br><br>
+   <label for="bio">Bio / Description</label>
+   <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+   <br><br>
+   <p>Kindly select the gender?</p>
+   <input type="radio" name="gender" id="male" value="male">
+   <label for="male">Male</label>
+   <input type="radio" name="gemder" id="female" value="female">
+   <label for="female">Female</label>
+   <br><br>
+
+   <p>Kindly select your hobby/ies:</p>
+   <input type="checkbox" name="hobby" id="badminton" value="badminton">
+   <label for="badminton">Badminton</label>
+   <input type="checkbox" name="hobby" id="gardening" value="gardening">
+   <label for="gardening">Gardening</label>
+   <input type="checkbox" name="hobby" id="drawing" value="drawing">
+   <label for="drawing">Drawing</label>
+   <br><br>
+   <p>Kindly select your device:</p>
+   <select name="device" id="device">
+       <option selected disabled>Select a device</option>
+       <option value="cellphone">Cellphone</option>
+       <option value="laptop">Laptop</option>
+       <option value="desktop">Desktop</option>
+   </select>
+   <br><br>
+   <p>Select a car:</p>
+   <select name="car" id="car" multiple>
+       <option value="jeepney">Jeepney</option>
+       <option value="honda_civic">Honda Civic</option>
+       <option value="bmw">BMW</option>
+   </select>
+   <br><br>
+   <p>Upload Photo</p>
+   <input type="file" name="profile_photo" id="profile_photo">
+   <br><br>
+   <!--submit botton-->
+   <input type="submit" value="Submit" name="btn_submit" id="submit">
+</form>
+<br>
+<button>I am a botton</button>
+</body>
+</html>

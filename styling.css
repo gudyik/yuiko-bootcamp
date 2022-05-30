@@ -1,0 +1,40 @@
+/* .container {
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url ("C:\Users\gugyi\OneDrive\ドキュメント\Zoom\carshowroom.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    /* background-size: cover; */
+.head1 {
+    text-align: center;
+}
+.container1 {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: aquamarine;
+    background-image: url1 ("C:\Users\gugyi\OneDrive\ドキュメント\Zoom\carshowroom.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.head2 {
+    text-align: center;
+}
+.container2 {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: aquamarine;
+    background-image: url1 (C:\Users\gugyi\OneDrive\デスクトップ\yuiko-bootcamp\styling.css);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
